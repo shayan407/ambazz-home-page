@@ -10,7 +10,7 @@ body{
 }
 
 :root{
-    --box-width: 1351px
+    --box-width: 1140px
 }
 /* @media(max-width: 1460px){
     :root{
@@ -451,7 +451,7 @@ body{
     display: flex;
     justify-content: space-between;
     gap: 20px;
-    min-height: 660px;
+    min-height: 450px;
 }
 .hero-section-inner .hero-section-left{
     width: 65%;
@@ -517,7 +517,7 @@ body{
     font-size: 50px;
     font-family: Plus Jakarta Sans;
     line-height: 65px;
-    width: 50%;
+    width: 70%;
 }
 .hero-section p{
     color: white;
@@ -1107,8 +1107,10 @@ body{
 .fifth-section-inner-left{
     width: 50%;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
     justify-content: space-between;
+    gap: 20px;
 }
 .fifth-section-inner-left .img-div{
     display: flex;
@@ -1151,7 +1153,7 @@ body{
     height: auto;
 }
 .fifth-section-inner-right{
-    width: 43%;
+    width: 50%;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -1772,7 +1774,7 @@ body{
 .seventh-section-inner-div{
     width: var(--box-width);
     margin: auto;
-    height: 380px;
+    height: 300px;
     display: flex;
     gap: 20px;
 }
@@ -2226,6 +2228,7 @@ body{
 }
 .swiper-4 .swiper-slide .description {
     margin: 15px 0px;
+    padding: 0px 15px;
 }
 .swiper-4 .swiper-slide .description p{
     color: rgb(51, 51, 51);
@@ -2377,7 +2380,7 @@ body{
 }
 .swiper-5 .swiper-slide .card .img-div{
     background-image: url(/assests/images/19_720x.webp);
-    height: 250px;
+    height: 180px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -2455,7 +2458,7 @@ body{
 }
 .section-thirteen-inner-icon-lists{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
     margin-top: 100px;
 }
@@ -2476,6 +2479,9 @@ body{
 }
 .section-thirteen.two{
     padding-top:10px;
+}
+.section-thirteen.two .section-thirteen-inner-bottom{
+    margin-top: 60px;
 }
 @media(max-width: 1024px){
     .section-thirteen.two{
