@@ -10,13 +10,13 @@ body{
 }
 
 :root{
-    --box-width: 1460px
+    --box-width: 1351px
 }
-@media(max-width: 1460px){
+/* @media(max-width: 1460px){
     :root{
         --box-width: 1280px
     }
-}
+} */
 
 
 .swiper-slide-img{
