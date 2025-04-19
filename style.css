@@ -1147,6 +1147,11 @@ body{
     align-items: center;
     gap: 5px;
     width: max-content;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.fifth-section-inner-left a:hover{
+    color: rgb(255,126,0);
 }
 .fifth-section-inner-left a svg{
     width: 20px;
