@@ -14,7 +14,7 @@ body{
 }
 @media(max-width: 1460px){
     :root{
-        --box-width: 100%
+        --box-width: 1280px
     }
 }
 
